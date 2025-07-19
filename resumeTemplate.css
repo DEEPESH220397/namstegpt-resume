@@ -1,0 +1,42 @@
+.resume {
+  width: 210mm;
+  padding: 20mm;
+  font-family: 'Segoe UI', sans-serif;
+  background: white;
+  color: #333;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+h2 {
+  color: #444;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 4px;
+  margin-top: 20px;
+}
+
+section {
+  margin-top: 10px;
+}
+
+ul {
+  margin: 0;
+  padding-left: 18px;
+}
